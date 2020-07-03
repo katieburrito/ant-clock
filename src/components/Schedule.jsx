@@ -6,11 +6,11 @@ function Schedule() {
   }
 
   return (
-    <h3>
+    <h1 className="current-activity">
       {checkTime() < 9 && "Good Morning"}
       {checkTime() >= 9 && checkTime() < 18 && "Time to Work"}
       {checkTime() >= 18 && "Relax Time"}
-    </h3>
+    </h1>
   );
 }
 

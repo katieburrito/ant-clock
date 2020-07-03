@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.current-activity {
+  font-size: 3rem;
+  margin: 100px;
+}
+
+input {
+  margin: 10px;
+}
